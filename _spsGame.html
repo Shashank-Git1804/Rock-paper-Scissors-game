@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper scissors</title>
+    <link rel="stylesheet" href="/_spsGame.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1 class="headings">
+                Rock Paper Scissors
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="input">
+            <a href="#" id="rock"><input type="image" src="/rock.jpg" alt="rock" class="img"></a>
+            <a href="#" id="paper"><input type="image" src="/paper.jpg" alt="paper" class="img"></a>
+            <a href="#" id="scissors"><input type="image" src="/scissors.jpg" alt="scissor" class="img"></a>
+        </div>
+        <div class="count">
+            <div class="imgsrc"></div> 
+            <div class="usersscore" style="margin-right:2em ;">
+                <p class="userscore scores">
+                    0
+                </p>
+                <p class="user">
+                    YOU
+                </p>
+            </div>
+            
+            <div class="systemsscore">
+               <p class="systemscore scores">0</p>
+               <p class="system">SYSTEM</p>
+            </div>
+            <div class="sysimgsrc"></div> 
+        </div>
+        <div class="display">
+            <h3>Pick Your Move!</h3>
+        </div>
+    </main>
+    
+    <script src="/_spsGame.js"></script>
+</body>
+</html>
